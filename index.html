@@ -1,0 +1,726 @@
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Léo Berger - Developpeur WEB</title>
+  <meta name="description" content="Portfolio de Léo Berger - Développeur Web - freelance indépendant">
+  <link rel="shortcut icon" href="./img/LB.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/global.css">
+  <script src="./js/global.js" defer></script>
+
+</head>
+
+<body>
+
+  <!-- ceci est un commentaire -->
+
+  <header class="header">
+    <div class="container d-flex">
+      <div class="logo">
+        Léo Berger
+      </div>
+      <nav class="navbar ">
+        <ul class="menu list-unstyled">
+          <li><a href="#hero">Accueil</a></li>
+          <li><a href="#about">A propos</a></li>
+          <li><a href="#services">Parcours de formation</a></li>
+          <li><a href="#skills">Parcours professionnel</a></li>
+          <li><a href="#portfolio">Projets</a></li>
+          <li><a href="#profil">Profil</a></li>
+          <li><a href="#veille">Veille Technologique</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="right">
+        <ul class="socials list-unstyled">
+            <a href="https://www.linkedin.com/in/l%C3%A9o-berger-72a5751ba/">
+              <svg aria-hidden="true" class="icon linkedin" focusable="false" data-prefix="leo" data-icon="linkedin-in"
+                class="svg-inline--fa fa-linkedin-in fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 448 512">
+                <path fill="currentColor"
+                  d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z">
+                </path>
+              </svg>
+            </a>
+          </li>
+        </ul>
+        <button class="burger"><span class="bar"></span></button>
+      </div>
+    </div>
+  </header>
+
+  <section id="hero" class="hero">
+    <div class="container">
+      <div class="grid">
+        <div class="hero__item left">
+          <span>Portfolio</span>
+          <h1 class="title">Bonjour, je suis Léo Berger</h1>
+          <p>Etudiant en BTS SIO</p>
+        </div>
+        <div class="hero__item right">
+          <div class="hero__avatar">
+            <img src="./img/avatar.png" alt="Avatar John Doe - Développeur web freelance">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="about" class="about">
+    <div class="container">
+          <h2 class="section-title">A propos</h2>
+          <h3>Qui suis-je</h3>
+          <p>
+            Je m’appelle Léo Berger et j’ai 19 ans. Diplômé d’un baccalauréat STMG (Science de la Technologie et de la Gestion) option Mercatique, je suis actuellement en 2ème année de BTS SIO 
+            (Services Informatiques aux Organisations) en spécialité SLAM (Solutions logicielles et Applications métier) au lycée Ella Fitzgerald à Saint-Romain-en-Gal afin de devenir 
+            développeur web.
+          </p>
+          <a href="https://drive.google.com/file/d/1iYd4Wn4ZDH-LVOo8_ABcaK5qG0SHnaMw/view?usp=share_link"><button>CV - Léo Berger</button></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="services" class="services">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Parcours de formation</h2>
+        <div class="row">
+          <div class="col-lg-6">
+              <h3 class="parcours-title">Formations</h3>
+              <div class="rightbox">
+                  <div class="rb-container">
+                      <ul class="rb">
+                          <li class="rb-item" ng-repeat="itembx">
+                              <div class="timestamp">
+                              BTS Services Informatiques aux Organisations<br> 2021-Aujourd'hui
+                              </div>
+                              <div class="item-title">
+                                  Spécialité Solutions Logicielles et Applications Métiers</br>
+                                  Lycée Ella Fitzgerald de Saint-Romain-en-Gal
+                              </div>
+                          </li>                      
+                          <li class="rb-item" ng-repeat="itembx">
+                              <div class="timestamp">
+                              Baccalauréat Sciences et Technologies du Management et de la Gestion<br> 2018-2021
+                              </div>
+                              <div class="item-title">Option Mercatique</br>
+                                  Lycée Ella Fitzgerald - Saint-Romain-en-Gal
+                              </div>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </div>
+    
+
+  </section>
+  <section id="skills" class="skills">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Parcours professionnel</h2>
+        <div class="row">
+          <div class="col-lg-6">
+              <h3 class="parcours-title">Stages</h3>
+              <div class="rightbox">
+                  <div class="rb-container">
+                      <ul class="rb">
+                          <li class="rb-item" ng-repeat="itembx">
+                              <div class="timestamp">
+                                Développeur Web - MAXIME LIMONE<br> Janvier-Février 2023
+                              </div>
+                              <div class="item-title">
+                                  Stage 2ème Année du BTS SIO (6 semaines)</br>
+                                  Couverture de test
+                              </div>
+                          </li>                      
+                          <li class="rb-item" ng-repeat="itembx">
+                              <div class="timestamp">
+                              Développeur Web - MAXIME LIMONE<br> Mai-Juin 2022
+                              </div>
+                              <div class="item-title">Stage 1ère Année du BTS SIO (7semaines)</br>
+                                Amélioration d’un site vitrine sur WordPress avec Elementor et Visual Studio Code en JavaScript.
+                              </div>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </div>
+      </div>
+      <div class="grid">
+        <div class="grid__item">
+    </div>
+
+  </section>
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Projets</h2>
+      </div>
+      <ul class="grid portfolio-filters list-unstyled">
+        <li class="grid__item">
+          <a href="#" class="active" data-filter="all">Tous les projets</a>
+        </li>
+        <li class="grid__item">
+          <a href="#" data-filter="web">Projet réalisé en cours</a>
+        </li>
+        <li class="grid__item">
+          <a href="#" data-filter="design">Projet réalisé en stage</a>
+        </li>
+        <li class="grid__item">
+          <a href="#" data-filter="app">Projet Personnel</a>
+        </li>
+      </ul>
+      <div class="grid">
+        <div class="grid__item">
+          <div class="card" data-category="web">
+            <img src="./img/logoclubdanse.webp" alt="projet cours1" class="card__image">
+            <div class="card__inner">
+              <h3 class="card__title">Club de danse sportive CDSM</h3>
+              <p class="category">Projet réalisé en 1ère année</p>
+            </div>
+            <div class="card__overlay">
+              <a href="#" class="card__link" data-id="modal-1">+</a>
+            </div>
+          </div>
+          <div class="modal" id="modal-1">
+            <button class="modal__close">&times;</button>
+
+            <div class="modal__content">
+
+              <div class="container">
+                <div class="grid">
+                  <div class="grid__item">
+                    <img src="./img/Club de danse.png" class="card__image"
+                      alt="Projet réalisé en 1ère année" />
+                  </div>
+                  <div class="grid__item">
+                    <h4 class="modal__title h2">Club de danse sportive CDSM - Vienne</h4>
+                    <a href="https://clubcdsm.wordpress.com/" target="_blank">Club de danse sportive CDSM </a>
+                    <p>
+                      <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="far"
+                        data-icon="calendar" class="svg-inline--fa fa-calendar fa-w-14" role="img"
+                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path fill="currentColor"
+                          d="M400 64h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zm-6 400H54c-3.3 0-6-2.7-6-6V160h352v298c0 3.3-2.7 6-6 6z">
+                        </path>
+                      </svg>
+                      <i>Année : 2022</i>
+                    </p>
+                    <p class="category">
+                      <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="tag"
+                        class="svg-inline--fa fa-tag fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 512 512">
+                        <path fill="currentColor"
+                          d="M0 252.118V48C0 21.49 21.49 0 48 0h204.118a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882L293.823 497.941c-18.745 18.745-49.137 18.745-67.882 0L14.059 286.059A48 48 0 0 1 0 252.118zM112 64c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z">
+                        </path>
+                      </svg>
+                      Projet réalisé en 1ère année
+                    </p>
+                    <h5 class="h3">Le projet</h5>
+                    <p>
+                      L’association InterDance qui se trouve à Sainte-Colombe 69560 n’a pas de site web pour le club de danse CDSM Vienne. 
+	                    Suite à cela, notre équipe va mettre en place un site web du club avec les informations suivantes :
+                      sur les anciens sportifs, ainsi que les récents ;
+                      sur les professeurs ;
+                      les détails sur les différents types de danses ;
+                      les compétitions nationales ou internationales .
+
+                    </p>
+
+                    <h5 class="h3">Objectif du Projet</h5>
+                    <p>
+                      Le but de notre projet est de créer le site web qui permet d’informer sur le club de danse, ainsi que la danse sportive, les professeurs et les danseurs.
+	                    Il permettra aux publiques de connaître la danse sportive et tout l’historique du club.
+
+                    </p>
+
+                    <h5 class="h3">Ressources Utilisées</h5>
+
+                    <ul>
+                      <li>Wordpress : Pour la création du site</li>
+                      <li>IONOS : Pour l'hébergement</li>
+                      <li>Google Drive : Pour le partage des documents</li>
+                      <li>Trello : Pour l'organisation du projet</li>
+                      <li>Facebook : Pour plus d'information sur le club</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid__item">
+          <div class="card" data-category="design">
+            <img src="./img/f1logo.png" alt="projet stage1" class="card__image">
+            <div class="card__inner">
+              <h3 class="card__title">Site Formule 1</h3>
+              <p class="category">Projet réalisé en stage de 1ère année</p>
+            </div>
+            <div class="card__overlay">
+              <a href="#" class="card__link" data-id="modal-2">+</a>
+            </div>
+          </div>
+          <div class="modal" id="modal-2">
+            <button class="modal__close">&times;</button>
+            <div class="modal__content">
+
+              <div class="container">
+                <div class="grid">
+                  <div class="grid__item">
+                    <img src="./img/f1.png" class="card__image"
+                      alt="Projet réalisé en stage de 1ère année" />
+                  </div>
+                  <div class="grid__item">
+                    <h4 class="modal__title h2">Site Formule 1</h4>
+                    <a href="https://formule1worldchampionship.wordpress.com/" target="_blank">Site Formule 1 </a>
+                    <p>
+                      <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="far"
+                        data-icon="calendar" class="svg-inline--fa fa-calendar fa-w-14" role="img"
+                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path fill="currentColor"
+                          d="M400 64h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zm-6 400H54c-3.3 0-6-2.7-6-6V160h352v298c0 3.3-2.7 6-6 6z">
+                        </path>
+                      </svg>
+                      <i>Année : 2022</i>
+                    </p>
+                    <p class="category">
+                      <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="tag"
+                        class="svg-inline--fa fa-tag fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 512 512">
+                        <path fill="currentColor"
+                          d="M0 252.118V48C0 21.49 21.49 0 48 0h204.118a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882L293.823 497.941c-18.745 18.745-49.137 18.745-67.882 0L14.059 286.059A48 48 0 0 1 0 252.118zM112 64c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z">
+                        </path>
+                      </svg>
+                      Projet réalisé en stage de 1ère année
+                    </p>
+                    <h5 class="h3">Contexte :</h5>
+                    <p>
+                      J’ai effectué mon stage de 1ère Année chez un autoentrepreneur à Vienne qui travaille également en tant que ingénieur développement chez Esker France à Villeurbanne en télétravail.
+                      L’activité est le développement Web et Mobile pour des particuliers.
+                    </p>
+                    <img src="./img/esker.png" class="card__image"
+                      alt="Esker" />
+                    <p>
+                      La gestion de projets de l’entreprise est la suivante: 
+                    </p>
+                    <li>Analyse des besoins du client</li>
+                    <li>Estimation de la charge de travail et création du devis</li>
+                    <li>Réalisation du site web par sprint</li>
+                    <li>Revue plus ou moins régulière avec les client</li>
+                    <li>Déploiement final du projet</li>
+
+                    <h5 class="h3">Mission du Stage :</h5>
+                    <li>Objectif : Amélioration d’un site vitrine sur la Formule 1 pour le passer en dynamique</li>
+                    <li>Environnement Technologique : WordPress, JavaScript, HTML, CSS, API</li>
+                    <li>Environnement de développement : Visual Studio Code</li>
+
+                    <img src="./img/wordpress.png" class="card__image"
+                      alt="Wordpress" />
+                      <img src="./img/vsc.png" class="card__image"
+                      alt="Visual Studio Code" />
+
+                    <h5 class="h3">Etape du Projet :</h5>
+                    <li>Étape 1 : Analyse comparative des API</li>
+                    <li>Étape 2 : Utilisation de l’API et codage</li>
+                    <li>Étape 3 : Création et utilisation de ShortCode</li>
+                    <li>Étape 4 : Intégration du CSS</li>
+                    <img src="./img/ergast.png" class="card__image"
+                      alt="Ergast" />
+
+                    <h5 class="h3">Bilan Personnel :</h5>
+                    <li>Ce stage m’a appris le langage JavaScript, il m’a également appris à utilisé un API, à créer des ShortCodes et d’approfondir mes connaissances sur du CSS, PHP et HTML.</li>
+                    <ul>
+                      
+                      
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        <div class="grid__item">
+          <div class="card" data-category="app">
+            <img src="./img/logoqatar2022.jpg" alt="projet perso1" class="card__image">
+            <div class="card__inner">
+              <h3 class="card__title">Coupe du Monde Qatar 2022</h3>
+              <p class="category">Projet Personnel</p>
+            </div>
+            <div class="card__overlay">
+              <a href="#" class="card__link" data-id="modal-3">+</a>
+            </div>
+          </div>
+          <div class="modal" id="modal-3">
+            <button class="modal__close">&times;</button>
+            <div class="modal__content">
+
+              <div class="container">
+                <div class="grid">
+                  <div class="grid__item">
+                    <img src="./img/Coupe du monde 2022.png" class="card__image"
+                      alt="Projet Personnel" />
+                  </div>
+                  <div class="grid__item">
+                    <h4 class="modal__title h2">Coupe du Monde Qatar 2022</h4>
+                    <a href="https://leobrg.github.io/WorldCupQatar2022/" target="_blank"> Coupe du Monde Qatar 2022</a>
+                    <p>
+                      <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="far"
+                        data-icon="calendar" class="svg-inline--fa fa-calendar fa-w-14" role="img"
+                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path fill="currentColor"
+                          d="M400 64h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zm-6 400H54c-3.3 0-6-2.7-6-6V160h352v298c0 3.3-2.7 6-6 6z">
+                        </path>
+                      </svg>
+                      <i>Année : 2022</i>
+                    </p>
+                    <p class="category">
+                      <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="tag"
+                        class="svg-inline--fa fa-tag fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 512 512">
+                        <path fill="currentColor"
+                          d="M0 252.118V48C0 21.49 21.49 0 48 0h204.118a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882L293.823 497.941c-18.745 18.745-49.137 18.745-67.882 0L14.059 286.059A48 48 0 0 1 0 252.118zM112 64c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z">
+                        </path>
+                      </svg>
+                      Projet Personnel 1
+                    </p>
+
+                    <h5 class="h3">Objectif du Projet</h5>
+                    <p>
+                       Le but du projet est de créer un site web qui permet d’informer sur la compétition, le pays hôte, les stades, les matchs ainsi que sur l'équipe de France.
+	                    Il permettra aux publiques de connaître les résultats.
+
+                    </p>
+
+                    <h5 class="h3">Ressources Utilisées</h5>
+                  
+                    <ul>
+                      <li>Visual Studio Code : Pour la création du site</li>
+                      <li>GitHub : Pour l'hébergement</li>
+                      <li>Trello : Pour l'organisation du projet</li>
+                      <li>Wikipedia : Pour plus d'information sur la compétition</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        <div class="grid__item">
+          <div class="card" data-category="web">
+            <img src="https://www.batiactu.com/images/auto/1200-900-m/20171206_185851_gedimat.jpeg" alt="projet cours2" class="card__image">
+            <div class="card__inner">
+              <h3 class="card__title">Ged’Imagination</h3>
+              <p class="category">Projet réalisé en 2ème année</p>
+            </div>
+            <div class="card__overlay">
+              <a href="#" class="card__link" data-id="modal-4">+</a>
+            </div>
+          </div>
+          <div class="modal" id="modal-4">
+            <button class="modal__close">&times;</button>
+            <div class="modal__content">
+
+              <div class="container">
+                <div class="grid">
+                  <div class="grid__item">
+                    <img src="" class="card__image"
+                      alt="Projet réalisé en 2ème année" />
+                  </div>
+                  <div class="grid__item">
+                    <h4 class="modal__title h2">Ged’Imagination</h4>
+                    <a href="" target="_blank">Ged’Imagination </a>
+                    <p>
+                      <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="far"
+                        data-icon="calendar" class="svg-inline--fa fa-calendar fa-w-14" role="img"
+                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path fill="currentColor"
+                          d="M400 64h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zm-6 400H54c-3.3 0-6-2.7-6-6V160h352v298c0 3.3-2.7 6-6 6z">
+                        </path>
+                      </svg>
+                      <i>Année : 2022-2023</i>
+                    </p>
+                    <p class="category">
+                      <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="tag"
+                        class="svg-inline--fa fa-tag fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 512 512">
+                        <path fill="currentColor"
+                          d="M0 252.118V48C0 21.49 21.49 0 48 0h204.118a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882L293.823 497.941c-18.745 18.745-49.137 18.745-67.882 0L14.059 286.059A48 48 0 0 1 0 252.118zM112 64c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z">
+                        </path>
+                      </svg>
+                      Projet réalisé en 2ème année
+                    </p>
+                    <p>
+                      Ce projet a été réalisé de Novembre 2022 à ??? 2023. Ce projet avait un vrai contexte professionnel et il a été découpé en différents sprints pour pouvoir avancer petit à petit méthodiquement.
+                    </p>
+
+                    <h5 class="h3">Contexte</h5>
+                    <p>
+                      La société NEGOMAT vient tout juste d’entrer dans le réseau d’adhérents de GEDIMAT. Pour fêter cet événement, NEGOMAT a décidé d’organiser un jeu concours nommé «GEDIMA’GINATION »
+                    </p>
+
+                    <h5 class="h3">Mission</h5>
+                    <p>
+                      Mettre en place le jeu concours en créant une application Web, mobile et une API.
+                    </p>
+
+                    <h5 class="h3">Principe du jeu</h5>
+
+                    <h5 class="h3">Environnement de développement</h5>
+                    <ul>
+                      <li>EDI : Visual Studio Code + Android Studio</li>
+                      <li>Langages : </li>
+                      <li>BDD : MySQL + SQL Lite</li>
+                      <li>Outils : GitHub + Postman + Trello</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid__item">
+          <div class="card" data-category="design">
+            <img src="./img/1001 visites.png" alt="projet stage2" class="card__image">
+            <div class="card__inner">
+              <h3 class="card__title">Couverture de test</h3>
+              <p class="category">Projet réalisé en stage de 2ème année</p>
+            </div>
+            <div class="card__overlay">
+              <a href="#" class="card__link" data-id="modal-5">+</a>
+            </div>
+          </div>
+          <div class="modal" id="modal-5">
+            <button class="modal__close">&times;</button>
+            <div class="modal__content">
+
+              <div class="container">
+                <div class="grid">
+                  <div class="grid__item">
+                    <img src="img/site1001vistites.png" class="card__image"
+                      alt="Projet réalisé en stage de 2ème année" />
+                  </div>
+                  <div class="grid__item">
+                    <h4 class="modal__title h2">Couverture de test automatisées</h4>
+                    <a href="https://1001visites.com/?" target="_blank">Site 1001 Visites </a>
+                    <p>
+                      <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="far"
+                        data-icon="calendar" class="svg-inline--fa fa-calendar fa-w-14" role="img"
+                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path fill="currentColor"
+                          d="M400 64h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zm-6 400H54c-3.3 0-6-2.7-6-6V160h352v298c0 3.3-2.7 6-6 6z">
+                        </path>
+                      </svg>
+                      <i>Année : 2023</i>
+                    </p>
+                    <p class="category">
+                      <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="tag"
+                        class="svg-inline--fa fa-tag fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 512 512">
+                        <path fill="currentColor"
+                          d="M0 252.118V48C0 21.49 21.49 0 48 0h204.118a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882L293.823 497.941c-18.745 18.745-49.137 18.745-67.882 0L14.059 286.059A48 48 0 0 1 0 252.118zM112 64c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z">
+                        </path>
+                      </svg>
+                      Projet réalisé en stage de 2ème année
+                    </p>
+                    <h5 class="h3">Contexte</h5>
+                    <p>
+                      J’ai effectué mon stage de 1ère Année chez un autoentrepreneur à Vienne qui travaille également en tant que ingénieur développement chez Esker France à Villeurbanne en télétravail.
+                      L’activité est le développement Web et Mobile pour des particuliers.
+                    </p>
+                    <img src="./img/esker.png" class="card__image"
+                      alt="Esker" />
+
+                      <p>
+                        La gestion de projets de l’entreprise est la suivante: 
+                      </p>
+                      <li>Analyse des besoins du client</li>
+                      <li>Estimation de la charge de travail et création du devis</li>
+                      <li>Réalisation du site web par sprint</li>
+                      <li>Revue plus ou moins régulière avec les client</li>
+                      <li>Déploiement final du projet</li>
+
+                    <h5 class="h3">Objectif du Projet</h5>
+                    <p>
+                      L'objectif du projet est de réalisé des tests automatisés afin de vérifier d’éventuelle problème sur le site à corriger.
+                    </p>
+
+                    <h5 class="h3">Ressources Utilisées</h5>
+                    <li>Visual Studio Code : Pour créer les tests automatisées</li>
+                    <li>Windows PowerShell : Pour lancer les tests automatisées</li>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid__item">
+          <div class="card" data-category="app">
+            <img src="https://picsum.photos/600/400?random=3" alt="projet perso2" class="card__image">
+            <div class="card__inner">
+              <h3 class="card__title">???</h3>
+              <p class="category">Projet Personnel</p>
+            </div>
+            <div class="card__overlay">
+              <a href="#" class="card__link" data-id="modal-6">+</a>
+            </div>
+          </div>
+          <div class="modal" id="modal-6">
+            <button class="modal__close">&times;</button>
+            <div class="modal__content">
+
+              <div class="container">
+                <div class="grid">
+                  <div class="grid__item">
+                    <img src="" class="card__image"
+                      alt="Projet Personnel" />
+                  </div>
+                  <div class="grid__item">
+                    <h4 class="modal__title h2">???</h4>
+                    <a href="" target="_blank"> </a>
+                    <p>
+                      <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="far"
+                        data-icon="calendar" class="svg-inline--fa fa-calendar fa-w-14" role="img"
+                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path fill="currentColor"
+                          d="M400 64h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zm-6 400H54c-3.3 0-6-2.7-6-6V160h352v298c0 3.3-2.7 6-6 6z">
+                        </path>
+                      </svg>
+                      <i>Année : 2023</i>
+                    </p>
+                    <p class="category">
+                      <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="tag"
+                        class="svg-inline--fa fa-tag fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 512 512">
+                        <path fill="currentColor"
+                          d="M0 252.118V48C0 21.49 21.49 0 48 0h204.118a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882L293.823 497.941c-18.745 18.745-49.137 18.745-67.882 0L14.059 286.059A48 48 0 0 1 0 252.118zM112 64c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z">
+                        </path>
+                      </svg>
+                      Projet Personnel 2
+                    </p>
+                    <h5 class="h3">Le projet</h5>
+                    <p>
+                      
+
+                    </p>
+
+                    <h5 class="h3">Objectif du Projet</h5>
+                    <p>
+                      
+
+                    </p>
+
+                    <h5 class="h3">Ressources Utilisées</h5>
+
+                    <ul>
+                      
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+  </section>
+  <section id="profil" class="profil">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Profil</h2>
+        <strong>Compétence :</strong>
+        <p>Développement Web : HTML, CSS, PHP, JavaScript, WordPress</p>
+        <p>Langage : C#, Java</p>
+        <p>Base de donnée : SQL, MySQL, HeidiSQL</p>
+        <p>IDE : Visual Studio, Visual Studio Code, GitHub, Android Studio, Eclipse</p>
+        <p>Gestion de projets : Trello</p>
+
+        <strong>Certification :</strong>
+        <p>PIX</p>
+
+        <strong>Qualité :</strong>
+        <p>- Ponctuel</p>
+        <p>- Motivé</p>
+        <p>- Sérieux</p>
+        <p>- Respectueux</p>
+      </div>
+
+    </section>
+    <section id="veille" class="veille">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Veille Technologique</h2>
+          <strong>Qu’est ce que la veille technologique ?</strong>
+          <p>La veille technologique consiste à se tenir informé de façon régulière sur les évolutions d’une 
+            technologie, d’une technique ou d’un langage dans un secteur d’activité donné. La veille implique 
+            de la recherche, de la surveillance, la collecte, l’organisation et même la diffusion de l’information.</p>
+            <strong>Quels sont les outils que j’utilise ?</strong>
+            <p>J’utilise différents types d’outils, ils me permettent de chercher l’information :</p>
+            <img src="./img/googlealerte.png" alt="googlealerte" class="card__image">
+            <img src="./img/ytb.png" alt="youtube" class="card__image">
+            <img src="./img/twitter.png" alt="twitter" class="card__image">
+            <strong><br>Quand est-ce que je fais de la veille ?</br></strong>
+            <p>Je reçois des notifications régulièrement mais je me pose une fois par semaine pour prendre le temps 
+              de consulter les articles qui m’ont été proposé.</p>
+            <p>Mon sujet de veille technologique : WordPress</p>
+
+  </section>
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Contact</h2>
+        <div class="row">
+          </div>
+        <div class="col-lg-4">
+          <div class="email">
+              <h5>Email:</h4>
+              <p><i class="bi-envelope"></i> bergerleo200328@gmail.com</p>
+          </div>
+          <div class="col-lg-4 info">
+            <div class="address">
+                <h5>Localisation :</h4>
+                <p><i class="bi-geo-alt"></i> Vienne, France</p>
+            </div>
+      </div>
+
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="grid">
+        <div class="grid__item">
+          <p>Léo Berger</p>
+        </div>
+        <div class="grid__item">
+          <ul class="socials list-unstyled">
+            <li>
+              <a href="https://www.linkedin.com/in/l%C3%A9o-berger-72a5751ba/">
+                <svg aria-hidden="true" class="icon linkedin" focusable="false" data-prefix="fab"
+                  data-icon="linkedin-in" class="svg-inline--fa fa-linkedin-in fa-w-14" role="img"
+                  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                  <path fill="currentColor"
+                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z">
+                  </path>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="grid__item">
+          <p>Etudiant en BTS SIO</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>

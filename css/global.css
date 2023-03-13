@@ -287,6 +287,11 @@ section {
   font-weight: 700;
 }
 
+.hero .img{
+  max-width: 100%;
+  height: auto;
+}
+
 .hero__item {
   display: flex;
   flex-direction: column;
@@ -704,7 +709,10 @@ h2{
   background: #F5F5F5;
 }
 
-
+.compétence{
+  max-width: 10%;
+  height: auto;
+}
 
 /* components */
 
